@@ -8,6 +8,7 @@ public class Main
             {10, 17, 20, 19, 1},
             {18, 22, 30, 25, 6}
         };
+        //test case part A
         GridPath one = new GridPath(nums);
         System.out.println(one);
         System.out.println(one.getNextLoc(0, 0));
@@ -23,5 +24,8 @@ public class Main
         };
         GridPath two = new GridPath(secondGrid);
         System.out.println(two);
+        //test case part b
+        System.out.println(two.sumPath(1, 1));
     }
+       
 }
